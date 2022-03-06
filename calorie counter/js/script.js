@@ -22,7 +22,6 @@ const maxCalories = document.querySelector("#calories-maximal");
 /*-------------------------------------------------------------*/
 /*-----Event listeners-----------------------------------------*/
 /*-------------------------------------------------------------*/
-
 age.addEventListener("input", () => {
   checkData();
 });
@@ -52,7 +51,6 @@ resetButton.addEventListener("click", () => {
 /*-------------------------------------------------------------*/
 /*-----Functions-----------------------------------------------*/
 /*-------------------------------------------------------------*/
-
 function checkData() {
   if (!!age.value && !!height.value && !!weight.value) {
     submitButton.removeAttribute("disabled");
