@@ -45,6 +45,8 @@ resetButton.addEventListener("click", () => {
   height.value = "";
   weight.value = "";
   physicalActivities[0].checked = true;
+  genders[0].checked = true;
+  result.classList.add("counter__result--hidden");
   checkData();
 });
 
