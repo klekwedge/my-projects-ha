@@ -78,7 +78,7 @@ function calorieCalculate() {
     normCalories.textContent = `${Math.round((generalMeaning - 161) * activityCoef)}`;
   }
   minCalories.textContent = Math.round(Number(normCalories.textContent) -  0.15 * Number(normCalories.textContent));
-  maxCalories.textContent = Math.round(Number(normCalories.textContent) +  0.15 * Number(normCalories.textContent))
+  maxCalories.textContent = Math.round(Number(normCalories.textContent) +  0.15 * Number(normCalories.textContent));
 }
 
 function calculateActivityCoef() {
